@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\项目\\S2_2021\\demo\\LsqParserEngine\\LsqParserEngine.IDAL\\LsqParserEngine.IDAL.csproj": {}
+  },
+  "projects": {
+    "E:\\项目\\S2_2021\\demo\\LsqParserEngine\\LsqParserEngine.Entity\\LsqParserEngine.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\项目\\S2_2021\\demo\\LsqParserEngine\\LsqParserEngine.Entity\\LsqParserEngine.Entity.csproj",
+        "projectName": "LsqParserEngine.Entity",
+        "projectPath": "E:\\项目\\S2_2021\\demo\\LsqParserEngine\\LsqParserEngine.Entity\\LsqParserEngine.Entity.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "E:\\项目\\S2_2021\\demo\\LsqParserEngine\\LsqParserEngine.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://221.234.36.41:9995/repository/s2-nuget/": {},
+          "http://221.234.36.41:9997": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "MiniExcel": {
+              "target": "Package",
+              "version": "[0.15.5, )"
+            },
+            "sqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\项目\\S2_2021\\demo\\LsqParserEngine\\LsqParserEngine.IDAL\\LsqParserEngine.IDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\项目\\S2_2021\\demo\\LsqParserEngine\\LsqParserEngine.IDAL\\LsqParserEngine.IDAL.csproj",
+        "projectName": "LsqParserEngine.IDAL",
+        "projectPath": "E:\\项目\\S2_2021\\demo\\LsqParserEngine\\LsqParserEngine.IDAL\\LsqParserEngine.IDAL.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "E:\\项目\\S2_2021\\demo\\LsqParserEngine\\LsqParserEngine.IDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://221.234.36.41:9995/repository/s2-nuget/": {},
+          "http://221.234.36.41:9997": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\项目\\S2_2021\\demo\\LsqParserEngine\\LsqParserEngine.Entity\\LsqParserEngine.Entity.csproj": {
+                "projectPath": "E:\\项目\\S2_2021\\demo\\LsqParserEngine\\LsqParserEngine.Entity\\LsqParserEngine.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

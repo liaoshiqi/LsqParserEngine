@@ -1,0 +1,16 @@
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Entity\bin\Debug\net5.0\LsqParserEngine.Entity.deps.json
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Entity\bin\Debug\net5.0\LsqParserEngine.Entity.dll
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Entity\bin\Debug\net5.0\ref\LsqParserEngine.Entity.dll
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Entity\bin\Debug\net5.0\LsqParserEngine.Entity.pdb
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Entity\bin\Debug\net5.0\LsqParserEngine.Entity.xml
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Entity\obj\Debug\net5.0\LsqParserEngine.Entity.csproj.AssemblyReference.cache
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Entity\obj\Debug\net5.0\LsqParserEngine.Entity.GeneratedMSBuildEditorConfig.editorconfig
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Entity\obj\Debug\net5.0\LsqParserEngine.Entity.AssemblyInfoInputs.cache
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Entity\obj\Debug\net5.0\LsqParserEngine.Entity.AssemblyInfo.cs
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Entity\obj\Debug\net5.0\LsqParserEngine.Entity.csproj.CoreCompileInputs.cache
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Entity\obj\Debug\net5.0\LsqParserEngine.Entity.dll
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Entity\obj\Debug\net5.0\ref\LsqParserEngine.Entity.dll
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Entity\obj\Debug\net5.0\LsqParserEngine.Entity.pdb
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Entity\bin\Debug\net5.0\LsqParserEngine.Common.dll
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Entity\bin\Debug\net5.0\LsqParserEngine.Common.pdb
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Entity\obj\Debug\net5.0\LsqParserEngine.Entity.csproj.CopyComplete

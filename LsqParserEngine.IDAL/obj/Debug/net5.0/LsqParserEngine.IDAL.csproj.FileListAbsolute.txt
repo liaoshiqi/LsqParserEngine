@@ -1,0 +1,16 @@
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.IDAL\bin\Debug\net5.0\LsqParserEngine.IDAL.deps.json
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.IDAL\bin\Debug\net5.0\LsqParserEngine.IDAL.dll
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.IDAL\bin\Debug\net5.0\ref\LsqParserEngine.IDAL.dll
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.IDAL\bin\Debug\net5.0\LsqParserEngine.IDAL.pdb
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.IDAL\bin\Debug\net5.0\LsqParserEngine.Entity.dll
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.IDAL\bin\Debug\net5.0\LsqParserEngine.Entity.pdb
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.IDAL\bin\Debug\net5.0\LsqParserEngine.Entity.xml
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.IDAL\obj\Debug\net5.0\LsqParserEngine.IDAL.csproj.AssemblyReference.cache
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.IDAL\obj\Debug\net5.0\LsqParserEngine.IDAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.IDAL\obj\Debug\net5.0\LsqParserEngine.IDAL.AssemblyInfoInputs.cache
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.IDAL\obj\Debug\net5.0\LsqParserEngine.IDAL.AssemblyInfo.cs
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.IDAL\obj\Debug\net5.0\LsqParserEngine.IDAL.csproj.CoreCompileInputs.cache
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.IDAL\obj\Debug\net5.0\LsqParserEngine.IDAL.csproj.CopyComplete
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.IDAL\obj\Debug\net5.0\LsqParserEngine.IDAL.dll
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.IDAL\obj\Debug\net5.0\ref\LsqParserEngine.IDAL.dll
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.IDAL\obj\Debug\net5.0\LsqParserEngine.IDAL.pdb

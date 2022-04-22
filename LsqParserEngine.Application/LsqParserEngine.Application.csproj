@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Organization\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LsqParserEngine.DAL\LsqParserEngine.Domain.csproj" />
+    <ProjectReference Include="..\LsqParserEngine.Entity\LsqParserEngine.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

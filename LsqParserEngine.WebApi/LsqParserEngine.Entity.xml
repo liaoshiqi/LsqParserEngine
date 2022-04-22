@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LsqParserEngine.Entity</name>
+    </assembly>
+    <members>
+        <member name="T:LsqParserEngine.Entity.Base.BusinessException">
+            <summary>
+            自定义业务异常
+            </summary>
+        </member>
+        <member name="P:LsqParserEngine.Entity.Base.BusinessException.ErrorMessage">
+            <summary>
+            业务错误信息
+            </summary>
+        </member>
+        <member name="P:LsqParserEngine.Entity.Base.BusinessException.Code">
+            <summary>
+            错误代码（方便管理可以使用枚举）
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.Base.ErrorCode">
+            <summary>
+            异常分类枚举
+            </summary>
+        </member>
+        <member name="F:LsqParserEngine.Entity.Base.ErrorCode.Success">
+            <summary>
+            成功
+            </summary>
+        </member>
+        <member name="F:LsqParserEngine.Entity.Base.ErrorCode.InvalidParameter">
+            <summary>
+            参数不合法
+            </summary>
+        </member>
+        <member name="F:LsqParserEngine.Entity.Base.ErrorCode.UnAuthorized">
+            <summary>
+            未授权
+            </summary>
+        </member>
+        <member name="F:LsqParserEngine.Entity.Base.ErrorCode.ServerError">
+            <summary>
+            未知服务器异常
+            </summary>
+        </member>
+        <member name="F:LsqParserEngine.Entity.Base.ErrorCode.DataDeleted">
+            <summary>
+            数据已删除
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.Base.MapperProfiles">
+            <summary>
+            配置需要转换的映射关系
+            </summary>
+        </member>
+        <member name="M:LsqParserEngine.Entity.Base.MapperProfiles.#ctor">
+            <summary>
+            配置需要转换的映射关系
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.IOrganization">
+            <summary>
+            组织机构接口
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:LsqParserEngine.Entity.KeyValueTable" -->
+        <member name="T:LsqParserEngine.Entity.CalcException">
+            <summary>
+            表达式解析异常
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.CalcStack">
+            <summary>
+            堆栈计算
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.ArrayExecutionItem">
+            <summary>
+            数组解析器
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.BoolExecutionItem">
+            <summary>
+            bool解析器
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.DateExecutionItem">
+            <summary>
+            日期类型解析器
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.DigitExecutionItem">
+            <summary>
+            数字解析器
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.Operator">
+            <summary>
+            操作符
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:LsqParserEngine.Entity.OperatorExecutionItem" -->
+        <member name="T:LsqParserEngine.Entity.FunctionHelper">
+            <summary>
+            规则帮助
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.DaysFunction">
+            <summary>
+            表单字段重复验证
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.ExecuteSQLFunction">
+            <summary>
+            执行sql
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.FunctionFactory">
+            <summary>
+            方法函数工厂
+            </summary>
+        </member>
+        <member name="M:LsqParserEngine.Entity.FunctionFactory.Create(LsqParserEngine.Entity.IOrganization)">
+            <summary>
+            创建自定义方法函数
+            </summary>
+            <param name="organization">组织机构接口</param>
+            <returns></returns>
+        </member>
+        <member name="M:LsqParserEngine.Entity.FunctionFactory.Describe(System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            获取方法的描述内容
+            </summary>
+            <param name="functionName">规则名</param>
+            <param name="fd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LsqParserEngine.Entity.FunctionFactory.DescribeAsHtml(System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            获取方法的描述内容html
+            </summary>
+            <param name="functionName">规则名</param>
+            <param name="fd"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LsqParserEngine.Entity.IIFFunction">
+            <summary>
+            IIF函数
+            </summary>
+        </member>
+        <member name="M:LsqParserEngine.Entity.OperatorParser.IsOperator(System.String,System.Boolean,System.Int32@)">
+            <summary>
+            是否是操作符号
+            </summary>
+            <param name="s"></param>
+            <param name="isFirstOperator"></param>
+            <param name="pos"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LsqParserEngine.Entity.OperatorPrivelege">
+            <summary>
+            操作符优先级
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.OperatorStack">
+            <summary>
+            堆栈操作
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.Variant">
+            <summary>
+            变量
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.VariantType">
+            <summary>
+            变量类型
+            </summary>
+        </member>
+    </members>
+</doc>

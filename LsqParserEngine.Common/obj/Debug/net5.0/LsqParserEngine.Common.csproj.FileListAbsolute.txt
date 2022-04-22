@@ -1,0 +1,12 @@
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Common\bin\Debug\net5.0\LsqParserEngine.Common.deps.json
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Common\bin\Debug\net5.0\LsqParserEngine.Common.dll
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Common\bin\Debug\net5.0\ref\LsqParserEngine.Common.dll
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Common\bin\Debug\net5.0\LsqParserEngine.Common.pdb
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Common\obj\Debug\net5.0\LsqParserEngine.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Common\obj\Debug\net5.0\LsqParserEngine.Common.AssemblyInfoInputs.cache
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Common\obj\Debug\net5.0\LsqParserEngine.Common.AssemblyInfo.cs
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Common\obj\Debug\net5.0\LsqParserEngine.Common.csproj.CoreCompileInputs.cache
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Common\obj\Debug\net5.0\LsqParserEngine.Common.dll
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Common\obj\Debug\net5.0\ref\LsqParserEngine.Common.dll
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Common\obj\Debug\net5.0\LsqParserEngine.Common.pdb
+E:\项目\S2_2021\demo\LsqParserEngine\LsqParserEngine.Common\obj\Debug\net5.0\LsqParserEngine.Common.csproj.AssemblyReference.cache

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.DotNet.PlatformAbstractions" Version="3.1.6" />
+    <PackageReference Include="sqlSugarCore" Version="5.0.0.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LsqParserEngine.Common\LsqParserEngine.Common.csproj" />
+    <ProjectReference Include="..\LsqParserEngine.Entity\LsqParserEngine.Entity.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="RuleParser\Repositories\" />
+  </ItemGroup>
+
+</Project>
