@@ -49,21 +49,15 @@ namespace LsqParserEngine.Entity
                     }
                     finalSql = string.Format(sql, args);
                 }
-
-                string checkSql = finalSql.Trim().ToLower();
-                if (!checkSql.StartsWith("select")) return new Variant(new string[] { });   //必须以select开头的sql语句
+                if (!finalSql.Trim().ToLower().StartsWith("select")) return new Variant(new string[] { });   //必须以select开头的sql语句
 
                 //EngineConfig engineConfig = base.Organization.Organization.GetQueryConfig();
-                //finalSql = finalSql.Replace("FormRule.", "");
                 //DataTable dt = Database.ExecuteQuery(engineConfig.DBType, engineConfig.DBConnString, finalSql);
-
                 DataTable dt = new DataTable();
-
                 if (dt == null || dt.Rows.Count == 0) return new Variant("");
                 object value = dt.Rows[0][0];
-                if (finalSql.ToLower().Contains("count(") || finalSql.ToLower().Contains("sum(") ||
-                    finalSql.ToLower().Contains("min(") || finalSql.ToLower().Contains("max(") ||
-                    dt.Columns[0].DataType.Name == "Double")
+                string dataType = dt.Columns[0].DataType.Name.ToLower();
+                if (dataType == "int" || dataType == "double" || dataType == "float" || dataType == "decimal")
                 {
                     value = value == null ? 0 : value;
                     return new Variant(value);

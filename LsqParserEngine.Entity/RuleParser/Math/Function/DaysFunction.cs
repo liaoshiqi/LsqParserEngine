@@ -47,22 +47,16 @@ namespace LsqParserEngine.Entity
 
             Variant variant = desc[0];
             Variant variant2 = desc[1];
-            //if (variant.Type != variant2.Type)
-            //{
-            //    throw new CalcException(string.Format(Global.ResourceManager.GetString("DaysFunction_Mssg"), "Days"));
-            //}
             DateTime def1 = DateTime.Now;
             if (variant.Value == null || string.IsNullOrEmpty(variant.Value.ToString()) || !DateTime.TryParse(variant.Value.ToString(), out def1))
             {
                 return new Variant(-1);
             }
-
             DateTime def2 = DateTime.Now;
             if (variant2.Value == null || string.IsNullOrEmpty(variant2.Value.ToString()) || !DateTime.TryParse(variant2.Value.ToString(), out def2))
             {
                 return new Variant(0);
             }
-
             DateTime t1 = Convert.ToDateTime(def1.ToShortDateString());
             DateTime t2 = Convert.ToDateTime(def2.ToShortDateString());
             TimeSpan ts = t1.Subtract(t2);

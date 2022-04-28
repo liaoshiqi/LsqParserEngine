@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LsqParserEngine.Entity.Organization;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -21,17 +22,12 @@ namespace LsqParserEngine.Entity
 
         public override Variant Calculate(FunctionFactory functionFactory, CalcStack stack, IVariableTable variables)
         {
-            string name = functionFactory.Organization.GetNameByCode(base.Text);
-            //Unit userByCode = FunctionFactory.Organization.GetUnit(base.Text);
-            //if (userByCode == null)
-            //{
-            //    userByCode = FunctionFactory.Organization.GetUserByCode(base.Text);
-            //}
-            //if (userByCode == null)
-            //{
-            //    return null;
-            //}
-            return new Variant(name, VariantType.Unit);
+            Unit unit = functionFactory.Organization.GetUnit(base.Text);
+            if (unit == null)
+            {
+                return null;
+            }
+            return new Variant(unit.ObjectID, VariantType.Unit);
         }
 
         public override string DescribeAsHtml(FunctionFactory functionFactory, Stack<string> stack, IDictionary variables)

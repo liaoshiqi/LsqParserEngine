@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LsqParserEngine.Entity.Organization;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,5 +13,7 @@ namespace LsqParserEngine.Entity
     public interface IOrganization
     {
         public string GetNameByCode(string code);
+
+        public Unit GetUnit(string objectId);
     }
 }
