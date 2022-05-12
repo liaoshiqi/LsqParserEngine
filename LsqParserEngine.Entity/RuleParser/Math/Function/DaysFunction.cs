@@ -31,10 +31,13 @@ namespace LsqParserEngine.Entity
         public override FunctionHelper GetHelper()
         {
             return new FunctionHelper(this.FunctionName,
-               "({Data1},{Data2})",
-                this.FunctionName + "()", new Parameter[0],
-                new Parameter("Return", "天数",
-                new DataLogicType[] { DataLogicType.Int }));
+               "获取两个日期相隔的天数",
+                this.FunctionName + "({EndData},{StartData})",
+                new Parameter[] {
+                    new Parameter("EndData", "结束日期", new DataLogicType[] { DataLogicType.DateTime }),
+                    new Parameter("StartData", "开始日期", new DataLogicType[] { DataLogicType.DateTime })
+                },
+                new Parameter("Return", "天数", new DataLogicType[] { DataLogicType.Int }));
 
         }
 

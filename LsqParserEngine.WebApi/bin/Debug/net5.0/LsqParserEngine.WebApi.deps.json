@@ -40,6 +40,7 @@
           "Autofac.Extras.DynamicProxy": "5.0.0",
           "LsqParserEngine.Application": "1.0.0",
           "LsqParserEngine.Common": "1.0.0",
+          "LsqParserEngine.Entity": "1.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.11",
           "Microsoft.DotNet.PlatformAbstractions": "3.1.6",
           "Microsoft.Extensions.Logging.Log4Net.AspNetCore": "3.1.0",

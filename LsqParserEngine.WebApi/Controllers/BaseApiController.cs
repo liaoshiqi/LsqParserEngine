@@ -1,4 +1,5 @@
 ﻿using LsqParserEngine.Common;
+using LsqParserEngine.WebApi.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LsqParserEngine.WebApi.Controllers
@@ -14,5 +15,7 @@ namespace LsqParserEngine.WebApi.Controllers
         /// 可以直接使用属性注入
         /// </summary>
         public ICacheHelper CacheHelper { get; set; }
+
+        protected MessageObjectResult Message(string value) => new MessageObjectResult(value);
     }
 }

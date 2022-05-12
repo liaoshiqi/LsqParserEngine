@@ -22,7 +22,11 @@ namespace LsqParserEngine.Application
         public T Calculate<T>(string formula, Dictionary<string, object> dataDic)
         {
             return RuleParserService.Calculate<T>(formula, dataDic);
+        }
 
+        public bool Validate(string formula, ref string errorMessage)
+        {
+            return RuleParserService.Validate(formula, ref errorMessage);
         }
     }
 }

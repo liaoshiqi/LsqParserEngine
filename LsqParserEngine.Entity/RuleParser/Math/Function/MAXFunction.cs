@@ -17,8 +17,8 @@
         public override FunctionHelper GetHelper()
         {
             return new FunctionHelper(this.FunctionName, "取两个值中的最大值 ", this.FunctionName + "({V1}, {V2})",
-                new Parameter[] { new Parameter("V1", "如果为V1&gt;=V2，则返回V1",
-                new DataLogicType[] { DataLogicType.Bool, DataLogicType.DateTime, DataLogicType.Double, DataLogicType.Int, DataLogicType.Long, DataLogicType.TimeSpan }),
+                new Parameter[] { 
+                    new Parameter("V1", "如果为V1&gt;=V2，则返回V1",new DataLogicType[] { DataLogicType.Bool, DataLogicType.DateTime, DataLogicType.Double, DataLogicType.Int, DataLogicType.Long, DataLogicType.TimeSpan }),
                     new Parameter("V2", "如果为V2&gt;=V1，则返回V2", new DataLogicType[] { DataLogicType.Bool, DataLogicType.DateTime, DataLogicType.Double, DataLogicType.Int, DataLogicType.Long, DataLogicType.TimeSpan }) },
                 new Parameter("Return", "最大值", new DataLogicType[] { DataLogicType.Bool, DataLogicType.DateTime, DataLogicType.Double, DataLogicType.Int, DataLogicType.Long, DataLogicType.ShortString, DataLogicType.SingleParticipant, DataLogicType.MultiParticipant, DataLogicType.String, DataLogicType.TimeSpan }));
         }

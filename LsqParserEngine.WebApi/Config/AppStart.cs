@@ -4,7 +4,7 @@ using System;
 namespace LsqParserEngine.WebApi.Config
 {
     /// <summary>
-    /// 初始化数据库
+    /// 初始化
     /// </summary>
     public class AppStart : IStartable
     {
@@ -18,26 +18,8 @@ namespace LsqParserEngine.WebApi.Config
         /// <summary>
         /// 初始化
         /// </summary>
-        public async void Start()
+        public void Start()
         {
-            //_commonDAL.InitDataTable();
-            //var appSetting = ConfigHelper.GetAppSetting();
-            //if (appSetting.EnableSchedulerTask)
-            //{
-            //    await InitSchedulerTask();
-            //}
-            //if (appSetting.EnableRedisMq)
-            //{
-            //    /*
-            //        消息订阅
-            //        T:参数类型;
-            //        channel:管道名称
-            //    */
-            //    _cacheHelper.RedisSubscribe<BuildFrameworkInput>("buildframework", (inputJson) =>
-            //    {
-
-            //    });
-            //}
             Console.WriteLine("App Start...");
         }
     }

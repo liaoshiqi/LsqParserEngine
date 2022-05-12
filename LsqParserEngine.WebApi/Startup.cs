@@ -1,15 +1,11 @@
 using System;
-using System.Linq;
 using System.Reflection;
 using Autofac;
 using LsqParserEngine.Common;
 using LsqParserEngine.Entity.Base;
-using LsqParserEngine.WebApi.Config;
 using LsqParserEngine.WebApi.Filter;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.DotNet.PlatformAbstractions;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -22,7 +18,6 @@ using AutoMapper;
 using Newtonsoft.Json.Serialization;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.AspNetCore.Mvc.Controllers;
-using LsqParserEngine.WebApi.Models;
 
 namespace LsqParserEngine.WebApi
 {

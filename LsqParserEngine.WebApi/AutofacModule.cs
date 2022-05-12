@@ -23,7 +23,6 @@ namespace LsqParserEngine.WebApi
             builder.RegisterAssemblyTypes(typeof(Startup).Assembly).AsImplementedInterfaces();
 
             builder.RegisterType<AppStart>().As<IStartable>();
-            //builder.RegisterType<Engine>().As<IEngine>().As<IStartable>().SingleInstance();
 
             var basePath = ApplicationEnvironment.ApplicationBasePath;
 

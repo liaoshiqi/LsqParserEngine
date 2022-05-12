@@ -57,6 +57,7 @@
   <ItemGroup>
     <ProjectReference Include="..\LsqParserEngine.Application\LsqParserEngine.Application.csproj" />
     <ProjectReference Include="..\LsqParserEngine.Common\LsqParserEngine.Common.csproj" />
+    <ProjectReference Include="..\LsqParserEngine.Entity\LsqParserEngine.Entity.csproj" />
   </ItemGroup>
 
 

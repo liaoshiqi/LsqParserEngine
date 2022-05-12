@@ -8,5 +8,8 @@ namespace LsqParserEngine.Application
         T Calculate<T>(string formula);
 
         T Calculate<T>(string formula, Dictionary<string, object> dataDic);
+
+        bool Validate(string formula, ref string errorMessage);
+
     }
 }

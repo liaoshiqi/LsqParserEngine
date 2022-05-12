@@ -59,12 +59,56 @@
             配置需要转换的映射关系
             </summary>
         </member>
+        <member name="T:LsqParserEngine.Entity.Organization.Dept">
+            <summary>
+            部门
+            </summary>
+        </member>
+        <member name="P:LsqParserEngine.Entity.Organization.Dept.LeaderID">
+            <summary>
+            部门主管
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.Organization.Unit">
+            <summary>
+            组织机构基类
+            </summary>
+        </member>
+        <member name="P:LsqParserEngine.Entity.Organization.Unit.Name">
+            <summary>
+            组织机构名称
+            </summary>
+        </member>
+        <member name="P:LsqParserEngine.Entity.Organization.Unit.ParentID">
+            <summary>
+            父级id
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.Organization.User">
+            <summary>
+            人员
+            </summary>
+        </member>
+        <member name="P:LsqParserEngine.Entity.Organization.User.Code">
+            <summary>
+            登录名
+            </summary>
+        </member>
+        <member name="P:LsqParserEngine.Entity.Organization.User.ManagerID">
+            <summary>
+            主管领导
+            </summary>
+        </member>
+        <member name="P:LsqParserEngine.Entity.Organization.User.Sex">
+            <summary>
+            性别
+            </summary>
+        </member>
         <member name="T:LsqParserEngine.Entity.IOrganization">
             <summary>
             组织机构接口
             </summary>
         </member>
-        <!-- Badly formed XML comment ignored for member "T:LsqParserEngine.Entity.KeyValueTable" -->
         <member name="T:LsqParserEngine.Entity.CalcException">
             <summary>
             表达式解析异常
@@ -168,6 +212,17 @@
             堆栈操作
             </summary>
         </member>
+        <member name="T:LsqParserEngine.Entity.FieldValueTable">
+            <summary>
+            数据库业务表类型的数据源
+            </summary>
+        </member>
+        <member name="T:LsqParserEngine.Entity.IVariableTable">
+            <summary>
+            数据源（可以是字典、数据模型等）类型
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:LsqParserEngine.Entity.KeyValueTable" -->
         <member name="T:LsqParserEngine.Entity.Variant">
             <summary>
             变量

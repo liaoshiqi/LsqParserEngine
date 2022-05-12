@@ -1,4 +1,5 @@
-﻿using LsqParserEngine.Entity.Base;
+﻿using LsqParserEngine.Entity;
+using LsqParserEngine.Entity.Base;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
@@ -48,7 +49,7 @@ namespace LsqParserEngine.WebApi.Filter
                 context.Result = new JsonResult(new
                 {
                     Code = ErrorCode.ServerError,
-                    ErrorMessage = "未知服务器异常"
+                    ErrorMessage = context.Exception.Message
                 });
             }
             context.ExceptionHandled = true;

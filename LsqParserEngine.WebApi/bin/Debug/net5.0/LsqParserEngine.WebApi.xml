@@ -17,7 +17,7 @@
         </member>
         <member name="T:LsqParserEngine.WebApi.Config.AppStart">
             <summary>
-            初始化数据库
+            初始化
             </summary>
         </member>
         <member name="M:LsqParserEngine.WebApi.Config.AppStart.#ctor">
@@ -56,6 +56,28 @@
             <summary>
             规则解析
             </summary>
+        </member>
+        <member name="M:LsqParserEngine.WebApi.Controllers.RuleController.GetRuleResult(System.String)">
+            <summary>
+            表达式解析
+            </summary>
+            <param name="ruleText">规则表达式</param>
+            <returns></returns>
+        </member>
+        <member name="M:LsqParserEngine.WebApi.Controllers.RuleController.GetRuleResult(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            带数据的表达式解析
+            </summary>
+            <param name="ruleText">规则表达式</param>
+            <param name="datas">数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:LsqParserEngine.WebApi.Controllers.RuleController.ValidateRule(System.String)">
+            <summary>
+            校验表达式是否合法
+            </summary>
+            <param name="ruleText">规则</param>
+            <returns></returns>
         </member>
         <member name="T:LsqParserEngine.WebApi.Filter.GlobalApiResultFilter">
             <summary>
