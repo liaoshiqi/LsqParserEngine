@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace LsqParserEngine.Entity
 {
     /// <summary>
-    /// ±íµ¥×Ö¶ÎÖØ¸´ÑéÖ¤
+    /// Daysè·å–ä¸¤ä¸ªæ—¥æœŸç›¸éš”çš„å¤©æ•°
     /// </summary>
     internal class DaysFunction : Function
     {
@@ -16,9 +16,14 @@ namespace LsqParserEngine.Entity
 
         public override string Describe(List<string> Parameters)
         {
-            return string.Format("»ñÈ¡Á½¸öÈÕÆÚÏà¸ôµÄÌìÊı", Parameters[0], Parameters[1]);
+            return string.Format("è·å–æ—¥æœŸ{1}ä¸{0}ç›¸éš”çš„å¤©æ•°", Parameters[0], Parameters[1]);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Parameters"></param>
+        /// <returns></returns>
         public override string DescribeAsHtml(List<string> Parameters)
         {
             if (Parameters.Count > 1)
@@ -31,13 +36,13 @@ namespace LsqParserEngine.Entity
         public override FunctionHelper GetHelper()
         {
             return new FunctionHelper(this.FunctionName,
-               "»ñÈ¡Á½¸öÈÕÆÚÏà¸ôµÄÌìÊı",
+               "è·å–ä¸¤ä¸ªæ—¥æœŸç›¸éš”çš„å¤©æ•°",
                 this.FunctionName + "({EndData},{StartData})",
                 new Parameter[] {
-                    new Parameter("EndData", "½áÊøÈÕÆÚ", new DataLogicType[] { DataLogicType.DateTime }),
-                    new Parameter("StartData", "¿ªÊ¼ÈÕÆÚ", new DataLogicType[] { DataLogicType.DateTime })
+                    new Parameter("EndData", "ç»“æŸæ—¥æœŸ", new DataLogicType[] { DataLogicType.DateTime }),
+                    new Parameter("StartData", "å¼€å§‹æ—¥æœŸ", new DataLogicType[] { DataLogicType.DateTime })
                 },
-                new Parameter("Return", "ÌìÊı", new DataLogicType[] { DataLogicType.Int }));
+                new Parameter("Return", "å¤©æ•°", new DataLogicType[] { DataLogicType.Int }));
 
         }
 

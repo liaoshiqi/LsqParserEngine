@@ -40,7 +40,6 @@ namespace LsqParserEngine.Entity
                 new ExecuteSQLFunction(organization),
                 new DaysFunction(organization),
                 new MAXFunction(organization),
-                //new FORMATFunction(organization),
                 //new ContainFunction(organization),
             };
         }
